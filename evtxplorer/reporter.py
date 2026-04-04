@@ -286,4 +286,3 @@ def write_html(findings: list[Finding], summary: AnalysisSummary, out: Path | Te
         out.write(rendered)
 
 
-import json  # noqa: E402 — needed in module scope for the filter
