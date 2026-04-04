@@ -1,0 +1,57 @@
+---
+# EVT-D001 — Domain Admin Group Enumerated
+id: EVT-D001
+name: "Domain Admin Group Enumerated"
+description: >
+  The Domain Admins group membership was enumerated (Event 4799 — security-enabled
+  local group membership enumerated). Attackers query privileged groups during
+  discovery to identify high-value targets for lateral movement.
+severity: medium
+mitre: T1069.002
+tags: [discovery, group-enumeration, domain-admins]
+references:
+  - https://attack.mitre.org/techniques/T1069/002/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4799
+match:
+  event_id: 4799
+  channel: Security
+
+---
+# EVT-D002 — Repeated Group Enumeration (bulk AD recon)
+id: EVT-D002
+name: "Bulk Security Group Enumeration — Possible AD Recon"
+description: >
+  Security group membership was enumerated many times in a short window.
+  This pattern is produced by tools like BloodHound, PowerView, and
+  net group /domain running in rapid succession during AD reconnaissance.
+severity: high
+mitre: T1069.002
+tags: [discovery, ad-recon, bloodhound]
+references:
+  - https://attack.mitre.org/techniques/T1069/002/
+  - https://github.com/BloodHoundAD/BloodHound
+match:
+  event_id: [4799, 4798]
+  channel: Security
+threshold:
+  count: 30
+  window_seconds: 60
+  group_by: [computer, data.SubjectUserName]
+
+---
+# EVT-D003 — Account Enumeration (4798 — user's local group membership queried)
+id: EVT-D003
+name: "User Group Membership Queried"
+description: >
+  A user's local group membership was queried (Event 4798). While low-signal
+  individually, high volumes from the same account indicate automated
+  user enumeration (net user /domain, LDAP queries).
+severity: low
+mitre: T1087.002
+tags: [discovery, account-enumeration]
+references:
+  - https://attack.mitre.org/techniques/T1087/002/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4798
+match:
+  event_id: 4798
+  channel: Security

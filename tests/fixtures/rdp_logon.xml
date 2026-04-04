@@ -1,0 +1,22 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4624</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T03:15:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>SERVER02</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">10</Data>
+      <Data Name="IpAddress">203.0.113.45</Data>
+      <Data Name="WorkstationName">UNKNOWN</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+</Events>

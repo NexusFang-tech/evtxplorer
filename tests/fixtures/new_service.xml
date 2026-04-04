@@ -1,0 +1,21 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" />
+    <EventID>7045</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T03:16:00.000000Z" />
+    <Channel>System</Channel>
+    <Computer>SERVER02</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="ServiceName">PSEXESVC</Data>
+      <Data Name="ImagePath">%SystemRoot%\PSEXESVC.exe</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+  </EventData>
+</Event>
+</Events>

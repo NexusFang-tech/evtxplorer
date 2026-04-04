@@ -1,0 +1,19 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Eventlog" />
+    <EventID>1102</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T11:30:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>WORKSTATION01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="SubjectUserName">jdoe</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+  </EventData>
+</Event>
+</Events>

@@ -1,0 +1,934 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:01.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:02.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:03.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:04.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:05.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:06.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:07.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:08.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:09.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:10.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:11.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:12.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:13.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:14.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:15.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:16.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:17.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:18.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:19.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:20.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:21.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:22.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:23.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:24.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:25.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:26.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:27.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:28.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:29.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:30.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:31.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:32.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:33.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4799</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:00:34.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">Domain Admins</Data>
+      <Data Name="SubjectUserName">attacker</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:01.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:02.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:03.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:04.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:05.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:06.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:07.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:08.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:09.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:10.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:11.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:12.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:13.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:02:14.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="FailureReason">%%2313</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4624</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:05:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">svc_backup</Data>
+      <Data Name="LogonType">10</Data>
+      <Data Name="IpAddress">192.168.1.99</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4720</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:06:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">maint_acct</Data>
+      <Data Name="SubjectUserName">svc_backup</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4732</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:06:05.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="MemberName">maint_acct</Data>
+      <Data Name="GroupName">Administrators</Data>
+      <Data Name="SubjectUserName">svc_backup</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Eventlog" />
+    <EventID>1102</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T09:15:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="SubjectUserName">maint_acct</Data>
+      <Data Name="SubjectDomainName">CORP</Data>
+  </EventData>
+</Event>
+</Events>

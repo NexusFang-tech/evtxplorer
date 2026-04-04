@@ -1,0 +1,242 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:00.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:01.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:02.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:03.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:04.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:05.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:06.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:07.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:08.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:09.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:10.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" />
+    <EventID>4625</EventID>
+    <Level>0</Level>
+    <Task>0</Task>
+    <TimeCreated SystemTime="2024-06-15T10:00:11.000000Z" />
+    <Channel>Security</Channel>
+    <Computer>DC01</Computer>
+    <Security UserID="" />
+  </System>
+  <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">CORP</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="IpAddress">192.168.1.50</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xC000006A</Data>
+  </EventData>
+</Event>
+</Events>

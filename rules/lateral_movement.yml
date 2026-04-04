@@ -1,0 +1,95 @@
+---
+# EVT-L001 — RDP Successful Logon
+id: EVT-L001
+name: "Remote Desktop Protocol Logon"
+description: >
+  A successful interactive logon via RDP (LogonType 10) was recorded.
+  In environments where RDP is not standard, this warrants investigation.
+  Correlate with source IP and time-of-day baseline.
+severity: medium
+mitre: T1021.001
+tags: [lateral-movement, rdp]
+references:
+  - https://attack.mitre.org/techniques/T1021/001/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624
+match:
+  event_id: 4624
+  channel: Security
+  data:
+    LogonType: "10"
+
+---
+# EVT-L002 — Network Logon to Admin Shares
+id: EVT-L002
+name: "Network Logon — Possible Admin Share Access"
+description: >
+  A Type 3 network logon occurred which may indicate access to administrative
+  shares (C$, ADMIN$, IPC$). Combined with object access events, this can
+  indicate lateral movement via SMB.
+severity: low
+mitre: T1021.002
+tags: [lateral-movement, smb, network-logon]
+references:
+  - https://attack.mitre.org/techniques/T1021/002/
+match:
+  event_id: 4624
+  channel: Security
+  data:
+    LogonType: "3"
+
+---
+# EVT-L003 — Pass-the-Hash Indicator (NTLMv1 network logon, no workstation name)
+id: EVT-L003
+name: "Potential Pass-the-Hash — NTLM Network Logon"
+description: >
+  An NTLM authentication event (LogonType 3, AuthPackage NTLM) without an
+  associated workstation name is a common indicator of pass-the-hash attacks.
+  Legitimate logons typically include a workstation name.
+severity: high
+mitre: T1550.002
+tags: [lateral-movement, pass-the-hash, ntlm]
+references:
+  - https://attack.mitre.org/techniques/T1550/002/
+  - https://www.ired.team/offensive-security/credential-access-and-credential-dumping/pass-the-hash-with-mimikatz
+match:
+  event_id: 4624
+  channel: Security
+  data:
+    LogonType: "3"
+    AuthenticationPackageName: "NTLM"
+    WorkstationName: ""
+
+---
+# EVT-L004 — Remote Service Installation
+id: EVT-L004
+name: "New Service Installed Remotely"
+description: >
+  A Windows service was installed (Event 7045). Remote service installation
+  is a common lateral movement technique used by tools like Impacket's
+  psexec.py and smbexec.py.
+severity: high
+mitre: T1543.003
+tags: [lateral-movement, persistence, service-installation]
+references:
+  - https://attack.mitre.org/techniques/T1543/003/
+  - https://github.com/fortra/impacket
+match:
+  event_id: 7045
+  channel: System
+
+---
+# EVT-L005 — Scheduled Task Creation
+id: EVT-L005
+name: "Scheduled Task Created"
+description: >
+  A new scheduled task was registered (Event 4698). Attackers frequently create
+  scheduled tasks for persistence and lateral movement execution.
+severity: medium
+mitre: T1053.005
+tags: [lateral-movement, persistence, scheduled-task]
+references:
+  - https://attack.mitre.org/techniques/T1053/005/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4698
+match:
+  event_id: 4698
+  channel: Security

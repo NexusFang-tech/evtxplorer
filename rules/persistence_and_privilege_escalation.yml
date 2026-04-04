@@ -1,0 +1,122 @@
+---
+# EVT-P001 — New Local Admin Account Created
+id: EVT-P001
+name: "New Local User Account Created"
+description: >
+  A new local user account was created (Event 4720). Adversaries create
+  accounts for persistence. Correlate with Event 4732 to check if the
+  account was added to a privileged group immediately after creation.
+severity: medium
+mitre: T1078
+tags: [persistence, account-creation]
+references:
+  - https://attack.mitre.org/techniques/T1078/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720
+match:
+  event_id: 4720
+  channel: Security
+
+---
+# EVT-P002 — User Added to Privileged Group
+id: EVT-P002
+name: "User Added to Privileged Group"
+description: >
+  A user was added to a security-enabled group (Event 4732 = local Administrators,
+  4728 = global group, 4756 = universal group). Adding accounts to admin groups
+  is a common persistence and privilege escalation technique.
+severity: high
+mitre: T1078.002
+tags: [persistence, privilege-escalation, group-modification]
+references:
+  - https://attack.mitre.org/techniques/T1078/002/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732
+match:
+  event_id: [4728, 4732, 4756]
+  channel: Security
+
+---
+# EVT-P003 — UAC Bypass Attempt (Event 4703 — Token elevation via fodhelper/eventvwr pattern)
+id: EVT-P003
+name: "Token Privilege Adjustment — Possible UAC Bypass"
+description: >
+  Token privileges were adjusted (Event 4703). When combined with auto-elevated
+  COM objects or registry manipulation, this can indicate UAC bypass techniques
+  such as the fodhelper or eventvwr method.
+severity: medium
+mitre: T1548.002
+tags: [privilege-escalation, defense-evasion, uac-bypass]
+references:
+  - https://attack.mitre.org/techniques/T1548/002/
+  - https://pentestlab.blog/2017/06/07/uac-bypass-fodhelper/
+match:
+  event_id: 4703
+  channel: Security
+
+---
+# EVT-P004 — Special Privileges Assigned at Logon
+id: EVT-P004
+name: "Special Privileges Assigned at Logon"
+description: >
+  Sensitive privileges (SeDebugPrivilege, SeTcbPrivilege, SeLoadDriverPrivilege)
+  were assigned to a new logon session (Event 4672). This indicates a highly
+  privileged account logged on — monitor for unexpected accounts receiving
+  these privileges.
+severity: medium
+mitre: T1134.001
+tags: [privilege-escalation, sensitive-privileges]
+references:
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4672
+  - https://attack.mitre.org/techniques/T1134/001/
+match:
+  event_id: 4672
+  channel: Security
+
+---
+# EVT-P005 — Windows Defender Disabled
+id: EVT-P005
+name: "Windows Defender Real-Time Protection Disabled"
+description: >
+  Windows Defender real-time monitoring was disabled (Event 5001 or 5004).
+  Disabling AV/EDR is a common pre-exploitation step.
+severity: high
+mitre: T1562.001
+tags: [defense-evasion, defender-disabled]
+references:
+  - https://attack.mitre.org/techniques/T1562/001/
+match:
+  event_id: [5001, 5004]
+  channel: "Microsoft-Windows-Windows Defender/Operational"
+
+---
+# EVT-P006 — Event Log Cleared
+id: EVT-P006
+name: "Security Event Log Cleared"
+description: >
+  The Security or System event log was cleared (Event 1102 / 104).
+  Log clearing is a strong indicator of post-exploitation anti-forensics.
+severity: critical
+mitre: T1070.001
+tags: [defense-evasion, log-clearing, anti-forensics]
+references:
+  - https://attack.mitre.org/techniques/T1070/001/
+  - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102
+match:
+  event_id: [1102, 104]
+
+---
+# EVT-P007 — PowerShell Script Block Logging
+id: EVT-P007
+name: "PowerShell Script Block Logged"
+description: >
+  PowerShell script block logging (Event 4104) captured a script execution.
+  Review the script content for encoded commands, download cradles, or
+  invocations of reflection/AMSI bypass patterns.
+severity: medium
+mitre: T1059.001
+tags: [execution, powershell, script-block]
+references:
+  - https://attack.mitre.org/techniques/T1059/001/
+  - https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
+match:
+  event_id: 4104
+  channel: "Microsoft-Windows-PowerShell/Operational"
