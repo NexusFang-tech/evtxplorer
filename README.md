@@ -2,6 +2,8 @@
 
 > Windows Event Log analyzer with YAML-driven MITRE ATT&CK detection rules.
 
+**[Try it in your browser](https://nexusfang-tech.github.io/labs/evtxplorer/)** with synthetic attack logs or your own exported XML.
+
 [![CI](https://github.com/NexusFang-Tech/evtxplorer/actions/workflows/ci.yml/badge.svg)](https://github.com/NexusFang-Tech/evtxplorer/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)

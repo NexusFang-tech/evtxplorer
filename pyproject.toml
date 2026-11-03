@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Windows Event Log analyzer with YAML-driven MITRE ATT&CK detection rules"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Matt Kardos", email = "nexusfang@proton.me" }]
+authors = [{ name = "Matt Keith" }]
 keywords = ["security", "evtx", "windows", "siem", "mitre", "detection"]
 classifiers = [
     "Development Status :: 3 - Alpha",
